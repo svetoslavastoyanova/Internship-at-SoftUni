@@ -1,0 +1,74 @@
+1) Test 1
+Input:
+20, 14, 7
+10, 5, 20, 15, 7, 9
+
+Output:
+All eggs are successfully collected!
+Total boxes filled: 3
+Pieces of paper left: 10, 5, 20
+
+2) Test 2
+Input:
+2, 4, 7, 8
+5, 6, 2
+
+Output:
+Not all eggs are collected.
+Eggs left: 8
+
+3) Test 3
+Input:
+12
+1
+
+Output:
+All eggs are successfully collected!
+Total boxes filled: 1
+Pieces of paper left: 0
+
+4) Test 4
+Input:
+12, 13
+10, 20, 30, 40
+
+Output:
+Sorry! You couldn't fill any boxes!
+
+5) Test 5
+Input:
+12, 13
+1, 2
+
+Output:
+All eggs are successfully collected!
+Total boxes filled: 1
+Pieces of paper left: 1
+
+6) Test 6
+Input:
+-1, -5, -10, -6
+10, 15, 18, 20, 16
+
+Output:
+Sorry! You couldn't fill any boxes!
+
+7) Test 7
+Input:
+12, 13, 5
+10, 20, 15, 17, 23
+
+Output:
+All eggs are successfully collected!
+Total boxes filled: 2
+Pieces of paper left: 17, 20, 15
+
+8) Test 8
+Input:
+2, -1, 5, 8
+10, 14, 25, 18, 32
+
+Output:
+All eggs are successfully collected!
+Total boxes filled: 3
+Pieces of paper left: 10, 14
