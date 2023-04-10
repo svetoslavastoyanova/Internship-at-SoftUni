@@ -1,0 +1,55 @@
+1)
+print(shopping_cart('Pizza', 'ham', 'Soup', 'carrots', 'Pizza', 'cheese', 'Pizza', 'flour', 'Dessert', 'milk', 'Pizza', 'mushrooms'))
+Output:
+Pizza:
+ - cheese
+ - flour
+ - ham
+ - mushrooms
+Dessert:
+ - milk
+Soup:
+ - carrots
+
+2)
+print(shopping_cart('Soup', 'carrots', 'Dessert', 'milk', 'Pizza', 'ham', 'Pizza', 'cheese', 'Dessert', 'eggs'))
+Output;
+Dessert:
+ - eggs
+ - milk
+Pizza:
+ - cheese
+ - ham
+Soup:
+ - carrots
+
+3)
+print(shopping_cart('Stop', 'Pizza', 'ham', 'Pizza', 'mushrooms', 'Soup', 'carrots', 'Dessert', 'milk'))
+Output:
+No products in the cart!
+
+4)
+print(shopping_cart('Dessert', 'milk', 'Pizza', 'ham', 'Pizza', 'cheese', 'Soup', 'carrots', 'Stop'))
+Pizza:
+ - cheese
+ - ham
+Dessert:
+ - milk
+Soup:
+ - carrots
+
+5)
+print(shopping_cart('Soup', 'carrots', 'Soup', 'carrots', 'Pizza', 'ham', 'Dessert', 'milk', 'Soup', 'onion', 'Dessert', 'eggs', 'Pizza', 'cheese'))
+Output:
+Dessert:
+ - eggs
+ - milk
+Soup:
+ - carrots
+ - onion
+Pizza:
+ - ham
+
+6)
+print(shopping_cart('Dessert', 'milk', 'Dessert', 'Milk', 'Pizza', 'ham', 'Soup', 'carrots', 'Dessert', 'eggs', 'Soup', 'celery'))
+
